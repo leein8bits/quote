@@ -1,0 +1,53 @@
+/*#wrapper{
+  min-width:25%;
+  max-width:50%;
+}*/
+
+#quote {
+  position: relative;
+  animation: slidein 1.2s;
+  font-size: 1.5em;
+  padding: 10px;
+  color: white;
+}
+
+#person {
+  font-size: 3em;
+  pading: 10px;
+  color: white;
+}
+
+button {
+  padding: 5px;
+  margin-bottom: 20px;
+  -webkit-appearance: none;
+  /* was showing rounded corners on osi safari*/
+}
+
+.RQM {
+  min-width: 300px;
+  min-height: 250px;
+  margin: auto;
+  background: url() no-repeat center center;
+  background-size: 120%;
+}
+
+#tweet {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.shadow {
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+h1 {
+  font-family: sansation;
+}
