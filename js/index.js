@@ -34,7 +34,7 @@ function myFunction() {
   /* document.getElementById("quote").innerHTML = "<q>" + (arr[ranNum][0])+ "</q>";  //moved these to content so I could fadeIn and fadeOut and send to twitter more neatly
    document.getElementById("person").innerHTML = "-" + (arr[ranNum][1]);*/
   content = "<div id='quote'><q>" + (arr[ranNum][0]) + "</q></div><br><address id ='person'>-" + (arr[ranNum][1]) + "</address>";
-  backGround = "url(https://httpsimage.com/img/" + (arr[ranNum][2]) + ")";
+  backGround = "url(https://s3-us-west-2.amazonaws.com/leein8bits/images/" + (arr[ranNum][2]) + ")";
   document.getElementById('RQM').style.backgroundImage = backGround; // specify the image path here
   lastNum = ranNum;
   words = arr[ranNum][0];
